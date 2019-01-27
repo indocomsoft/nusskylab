@@ -57,7 +57,7 @@ gem install bundler
 bundle update
 
 echo "Inserting dummy tokens to run rails"
-sh ./dummyToken.sh
+source ./dummyToken.sh
 
 #populate with rails data
 echo "Populating rails databases"
